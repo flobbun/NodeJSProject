@@ -1,0 +1,27 @@
+body{
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, #434343, #000000);  
+    background: linear-gradient(to right, #434343, #000000);
+}
+*{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+// Colors
+$black1: #111;
+$white1: #f1f1f1;
+$blue1: rgb(0, 124, 146);
+$purple1: #3E3C55;
+
+// Font Sizes
+$titlesize: 60px;
+$subtitlesize: 40px;
+$normalsize: 20px;
+$linksize: 16px; 
+
+// Fonts
+$titlefont: 'Luckiest Guy', cursive;
+$normalfont: 'Imbue', serif;

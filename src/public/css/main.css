@@ -1,0 +1,46 @@
+body {
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000); }
+
+* {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.mainHeader {
+  font-family: "Imbue", serif;
+  padding: 4px;
+  background-color: #111;
+  border-bottom: 0.1px outset rgba(255, 255, 255, 0.521);
+  transition-duration: 0.6s; }
+  .mainHeader nav ul li img {
+    width: 20px;
+    filter: invert(100%); }
+  .mainHeader nav ul li a, .mainHeader nav ul li a:visited {
+    color: #f1f1f1;
+    font-size: 28px; }
+  .mainHeader nav ul li:hover a {
+    color: #007c92; }
+  .mainHeader nav ul li:hover img {
+    transform: scale(1.2); }
+  .mainHeader:hover {
+    border-radius: 0px 0px 70px 70px;
+    border-bottom: 0.1px outset rgba(255, 255, 255, 0.192); }
+
+.mainSection {
+  margin-top: 30px;
+  padding: 20px; }
+  .mainSection .title {
+    text-shadow: 1.8px 2px 3px #3E3C55;
+    animation: fadeIn 0.8s forwards;
+    color: #f1f1f1;
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: "Luckiest Guy", cursive;
+    letter-spacing: 2px; }
+  .mainSection .ilustration {
+    animation: 1s bounceIn forwards; }
+
+/*# sourceMappingURL=main.css.map */
